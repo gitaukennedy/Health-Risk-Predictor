@@ -32,7 +32,7 @@ if st.button("Predict"):
 
     try:
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://health-risk-predictor-3wvi.onrender.com/predict",
             json=data
         )
 
