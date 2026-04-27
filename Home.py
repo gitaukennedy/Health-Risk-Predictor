@@ -28,14 +28,14 @@ with col_left:
     # Direct Navigation Buttons
     c1, c2 = st.columns(2)
     with c1:
-        if st.button("🚀 Run Risk Assessment", width='stretch'):
+        if st.button("🚀 Run Risk Assessment"):
             st.switch_page("pages/Predict.py")
     with c2:
-        if st.button("🤖 Talk to Health AI", width='stretch'):
+        if st.button("🤖 Talk to Health AI"):
             st.switch_page("pages/Assistant.py")
 
 with col_right:
-    st.image("https://images.unsplash.com/photo-1576091160550-2173dad99962?w=800", width='stretch')
+    st.image("https://images.unsplash.com/photo-1576091160550-2173dad99962?w=800")
 
 st.markdown("---")
 
